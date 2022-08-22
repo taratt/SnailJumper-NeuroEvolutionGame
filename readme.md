@@ -14,3 +14,5 @@ The file drawer.py simply plots the learning curves. The picture below shows an 
   <img src="learning_curve.png" alt="Size Limit CLI" width="738">
 </p>
 
+## The Game
+The graphics and the general parts of this game was implemented by <a href="https://github.com/SoroushMehraban">Soroush Mehraban</a> (The neuroevolution part and the sections above were implemented by <a href="https://github.com/taratt">me</a>). 
