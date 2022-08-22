@@ -5,4 +5,12 @@ This is a neuroevolution project that utilizes evolutionary algorithms to genera
 
 ## Neuroevolution
 ### The Neural Network
-The nn.py is where I implemented the neural network (the weights and biases initializations, activation function(s), and feed forward). As mentioned before, each player (created by the evolutionary algorithm and together they form a whole generation) is associated with a neural network (with its specific parameters).
+The file nn.py is where I implemented the neural network (the weights and biases initializations, activation function(s), and feed forward). As mentioned before, each player (created by the evolutionary algorithm and together they form a whole generation) is associated with a neural network (with its specific parameters).
+### The Evolutionary Algorithm
+The file evolution is where I implemented the evolutionary algorithm of this project. Different steps of the evolutionary algorithm such as new population generation, new population selection and ... are implemented in this section and different combinations of selection method, mutation, and crossover are tried out and implemented (some have been commented because the combination didn't work so well).
+### Learning Curve
+The file drawer.py simply plots the learning curves. The picture below shows an example of the result of this code.
+<p align="center">
+  <img src="learning_curve.png" alt="Size Limit CLI" width="738">
+</p>
+
